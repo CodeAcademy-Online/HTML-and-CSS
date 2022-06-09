@@ -47,11 +47,6 @@ main section :not(a){
     text-align: justify;
 }
 
-h2:before{
-    content: "\269d";
-    padding-right: 5px;
-}
-
 section:first-child{
     flex: 2;
 }
