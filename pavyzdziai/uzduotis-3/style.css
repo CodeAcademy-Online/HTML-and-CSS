@@ -1,0 +1,36 @@
+/* Tag selectors */
+html {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: linear-gradient(#24C6DC, #514A9D);
+  color: #003638;
+  font-family: lato;
+}
+
+img {
+  display: block;
+  box-shadow: 0 0 10px cyan;
+}
+
+span {
+  background: white;
+  text-transform: uppercase;
+}
+
+/* Class selectors */
+.pavadinimas {
+  text-align: center;
+  border: 3px solid #FE9898;
+}
+
+.font-size {
+  font-size: 10px;
+}
+
+/* Id selectors */
+#first-image {
+  box-shadow: 0 0 10px white;
+}
