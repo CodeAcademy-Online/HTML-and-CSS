@@ -638,7 +638,6 @@ Footer
   .nav-toggle {
     display: none;
   }
-  /* show links */
   .nav-links {
     height: auto;
     display: flex;
@@ -647,7 +646,6 @@ Footer
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* optional */
     flex-wrap: wrap;
   }
   .nav-header {
@@ -683,15 +681,4 @@ Footer
     color: var(--grey-500);
     transform: translateY(-10%);
   }
-}
-
-.fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: var(--grey-100);
-  transition: var(--mainTransition);
-  box-shadow: var(--shadow-1);
-  z-index: 1;
 }
